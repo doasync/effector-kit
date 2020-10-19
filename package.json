@@ -1,9 +1,9 @@
 {
   "name": "effector-kit",
-  "version": "0.1.1",
+  "version": "1.0.0",
   "author": "doasync <doasync@gmail.com>",
   "license": "MIT",
-  "description": "\uD83E\uDDF0",
+  "description": "🧰",
   "repository": {
     "type": "git",
     "url": "https://github.com/doasync/effector-kit.git"
