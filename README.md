@@ -1,3 +1,12 @@
+[![NPM Version][npm-image]][npm-url] ![NPM Downloads][downloads-image] [![GitHub issues][issues-image]][issues-url]
+
+[npm-image]: https://img.shields.io/npm/v/effector-kit.svg
+[npm-url]: https://www.npmjs.com/package/effector-kit
+[downloads-image]: https://img.shields.io/npm/dw/effector-kit.svg
+[deps-image]: https://david-dm.org/doasync/effector-kit.svg
+[issues-image]: https://img.shields.io/github/issues/doasync/effector-kit.svg
+[issues-url]: https://github.com/doasync/effector-kit/issues
+
 # Effector kit
 
 🧰
@@ -45,11 +54,6 @@ $schoolId.on(changeSchoolId, setPayload);
 
 ### Helpers
 
-<details>
-<summary>
-  All
-</summary>
-
 ```ts
 export const getVoid = (payload?: unknown): void => undefined;
 export const getInverted = (payload: unknown): boolean => !payload;
@@ -63,5 +67,3 @@ export const setPayload = <Payload = unknown>(
   payload: Payload
 ): Payload => payload;
 ```
-
-</details>

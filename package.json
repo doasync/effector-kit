@@ -1,6 +1,14 @@
 {
+  "name": "effector-kit",
   "version": "0.1.1",
+  "author": "doasync <doasync@gmail.com>",
   "license": "MIT",
+  "description": "\uD83E\uDDF0",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/doasync/effector-kit.git"
+  },
+  "module": "dist/effector-kit.esm.js",
   "main": "dist/index.js",
   "typings": "dist/index.d.ts",
   "files": [
@@ -17,7 +25,6 @@
     "lint": "tsdx lint",
     "prepare": "tsdx build"
   },
-  "peerDependencies": {},
   "husky": {
     "hooks": {
       "pre-commit": "tsdx lint"
@@ -29,9 +36,7 @@
     "singleQuote": true,
     "trailingComma": "es5"
   },
-  "name": "effector-kit",
-  "author": "doasync",
-  "module": "dist/effector-kit.esm.js",
+  "peerDependencies": {},
   "devDependencies": {
     "husky": "^4.3.0",
     "tsdx": "^0.14.1",
